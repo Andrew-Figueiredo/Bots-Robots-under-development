@@ -1,7 +1,7 @@
 from instaBot import InstagramBot
 from tela import TelaPython
 from info import info
-
+from time import sleep
 
 if __name__ == '__main__':
 
@@ -16,11 +16,11 @@ if __name__ == '__main__':
 
 
         print("Terminou!!")
-        time.sleep(1)
+        sleep(1)
         i = 3
         while(i>0):
             print("Fechando em "+ i)
-            time.sleep(2)
+            sleep(2)
             i-=1
         driver.close()
 
