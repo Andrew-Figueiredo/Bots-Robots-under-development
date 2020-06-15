@@ -3,6 +3,7 @@ from tela import TelaPython
 from info import info
 from time import sleep
 
+
 if __name__ == '__main__':
 
     try:
