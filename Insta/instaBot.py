@@ -88,12 +88,11 @@ class InstagramBot:
             buttons_seguindo = driver.find_elements_by_xpath(
                 "//div[@class='Pkbci']//button[@class='sqdOP  L3NKy   y3zKF     ']")
             if str(len(buttons_seguindo)) != 0:
-                self.aperta_botao_seguir_igual_humano(buttons_seguindo, i, f )
+                self.aperta_botao_seguir_igual_humano(buttons_seguindo, i, f)
             sleep(1)
             # fechar aba
             driver.get(f"https://www.instagram.com/{arroba}/")
 
-
         except Exception as e:
             print(e)
-    sleep(random.randint(1,3))
+    sleep(random.randint(1, 3))
