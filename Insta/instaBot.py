@@ -76,7 +76,7 @@ class InstagramBot:
             if str(len(buttons_seguidores)) != 0:
                 self.aperta_botao_seguir_igual_humano(buttons_seguidores, i, f)
             # fechar aba
-            sleep(1)
+            sleep(3)
 
             driver.get(f"https://www.instagram.com/{arroba}/")
 
